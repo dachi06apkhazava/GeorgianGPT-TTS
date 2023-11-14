@@ -3,7 +3,6 @@ import speech_recognition as sr
 from googletrans import Translator
 import asyncio
 import pyttsx3 as tts
-import keyboard
 
 engine = tts.init()
 voices = engine.getProperty('voices')
